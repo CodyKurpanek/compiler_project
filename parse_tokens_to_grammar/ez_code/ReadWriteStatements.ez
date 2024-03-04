@@ -1,0 +1,5 @@
+int y.
+int z.
+in >> y.
+z is y.
+out << z.

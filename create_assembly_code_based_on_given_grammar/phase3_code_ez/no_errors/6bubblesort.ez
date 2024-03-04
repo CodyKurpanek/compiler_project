@@ -1,0 +1,38 @@
+func main(){
+    int n is 5. 
+    int myArray[5].
+    myArray[0] is 7.
+    myArray[1] is 5.
+    myArray[2] is 2.
+    myArray[3] is 9.
+    myArray[4] is 1.
+
+    int i is 0.
+    int j is 0.
+    int k is n - 1.
+
+    phase(i < k){
+        int l is n - i.
+        int m is l - 1.
+        phase(j < m){
+            int o is j + 1.
+            int temp1.
+            int temp2.
+            temp1 is myArray[j].
+            temp2 is myArray[o].
+            if(temp1 > temp2){
+                myArray[j] is temp2.
+                myArray[o] is temp1.
+            }
+            j is j + 1.
+        }
+        j is 0.
+        i is i + 1.
+    } 
+
+    out << myArray[0].
+    out << myArray[1].
+    out << myArray[2].
+    out << myArray[3].
+    out << myArray[4].
+}

@@ -1,0 +1,15 @@
+
+int count is 0.
+int input.
+int total is 0.
+int caculateAverage()
+{
+	while(input != 0)
+	{
+		cin >> input.
+		total is (total + input).
+		count is (count + 1).
+	}
+	out << (total / count).
+
+}

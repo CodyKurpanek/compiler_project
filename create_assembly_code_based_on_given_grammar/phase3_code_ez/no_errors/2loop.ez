@@ -1,0 +1,7 @@
+func main(){
+    int x is 1.
+    phase(x < 6){
+        out << x.
+        x is x + 1.
+    }
+}

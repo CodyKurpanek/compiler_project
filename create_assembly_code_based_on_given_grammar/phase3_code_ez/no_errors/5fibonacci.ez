@@ -1,0 +1,16 @@
+func fibonacci(int k){
+    if(k <= 1){
+        return 1.
+    }
+    int y is k - 1.
+    int z is k - 2.
+    return fibonacci(y) + fibonacci(z).
+}
+
+func main(){
+    int n.
+    int fib_n.
+    in >> n.
+    fib_n is fibonacci(n).
+    out << fib_n.
+}

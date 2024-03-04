@@ -1,0 +1,12 @@
+int x is 0.
+
+phase(x != 10)
+{
+	x is x + 1.
+}
+
+y is 0.
+
+do{
+	y is y +1.
+}phase(y != 10)

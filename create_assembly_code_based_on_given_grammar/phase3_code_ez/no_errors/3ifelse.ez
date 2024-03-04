@@ -1,0 +1,10 @@
+func main(){
+    int a is 1.
+    int b is 2.
+    if(a > 0){
+        out << a.
+    }
+    else{
+        out << b.
+    }
+}

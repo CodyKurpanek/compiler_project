@@ -1,0 +1,7 @@
+int x.
+int y.
+
+x is 4 + 4.
+y is 16 - 8.
+x is x * y.
+y is y / 2. 

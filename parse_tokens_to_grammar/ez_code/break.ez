@@ -1,0 +1,24 @@
+int x is 0.
+int y is 5.
+phase(x != 10)
+{
+  x is x + 1.
+  y is y + 1.
+    if(y == 10)
+    {
+      stop.
+    }
+}
+
+
+
+
+int z is 3.
+phase(z > 3)
+{
+  z is z + 1.
+  if(z == 10)
+  {
+    stop.
+  }
+}

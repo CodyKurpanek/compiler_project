@@ -1,0 +1,10 @@
+int year is 2022.
+
+if(year <= 400)
+{
+  out << 1.
+}
+else{
+  out << 4.
+}
+  
